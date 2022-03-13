@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 5%;
+    
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        h2 {
+            margin-top: 0;
+        }
+        p, a {
+            margin: 0.5em;
+        }
+        a {
+            color: #9c9c9c;
+
+        }
+    }
+    .foot-centre {
+        .nav-foot {
+            margin-bottom: 60px;
+            a {
+                color: black;
+                font-size: 25px;
+                
+            }
+        }
+        a {
+            margin: 0;
+
+        }
+    }
+}

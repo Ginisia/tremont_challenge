@@ -1,0 +1,51 @@
+.story-page header {
+    background: url(../img/Stocksy_comp_543118.jpg) center/cover;
+    height: 100vh;
+}
+
+.main-story{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5%;
+    .story-left, .story-right{
+        margin-top: 10%;
+        text-align: center;
+        &>p {
+            margin: 50px;
+        }
+    }
+    .story-right {
+        a {
+            color: $greytxt;
+        }
+        p {
+            font-style: italic;
+        }
+    }
+    .story-centre{
+        top: 0;
+        text-align: left;
+        width: 40%;
+        h2{
+            text-align: center;
+        }
+        p{
+            line-height: 1.8em;
+            a {
+                color: grey;
+            }
+        }
+        
+    }
+    
+}
+.story-sides-txt{
+    margin-bottom: 50px;
+    p {
+        margin: 10px;
+    }
+    p:nth-last-of-type(1) {
+            font-style: italic;
+    }
+}

@@ -1,0 +1,41 @@
+.top-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    margin: 2.5% 0;
+    padding: 0 3%;
+    z-index: 100;
+    &.hide {
+        transform:translateY(-500%);
+    }
+
+    .home-link {
+        margin-right: auto;
+            color: white;
+    }
+    .nav-links {
+    // color: white;
+        font-weight: 700;
+        font-size: 17px;
+        padding: 10px;
+        color: white;
+    }
+    .nav-links:hover {
+        color: rgb(255, 144, 97);
+    }
+    .nav-links:active {
+        color: rgb(255, 144, 97);
+    }
+    .socials {
+        padding: 5px;
+        .fa-twitter {
+            margin-left: 20px;
+        }
+    }
+    .socials:hover {
+        color: grey;
+        }
+    
+}
